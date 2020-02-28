@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 
-const titleCased = (input) => {
+const titleCased = () => {
   return tutorials.map( sentence => {
     let words = sentence.split(' ')
     let capitalizedWords =
